@@ -28,7 +28,7 @@ class Rectangle:
         self.point2 = point2
 
     def area(self):
-        return abs((self.point2.x - self.point1.x) * \
+        return abs((self.point2.x - self.point1.x) *
                    (self.point2.y - self.point1.y))
 
 

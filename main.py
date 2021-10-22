@@ -5,8 +5,8 @@ import turtle
 from geometry import Point, GuiPoint, GuiRectangle
 
 # Create rectangle object
-rectangle = GuiRectangle(Point(randint(0, 400), randint(0, 400)),
-                         Point(randint(0, 400), randint(0, 400)))
+rectangle = GuiRectangle(Point(randint(0, 200), randint(0, 200)),
+                         Point(randint(200, 400), randint(200, 400)))
 
 # Print rectangle coordinates
 print("Rectangle Coordinates: ",
